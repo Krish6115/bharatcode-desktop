@@ -194,4 +194,12 @@ export const dict: Record<string, string> = {
   "ui.promptInput.send": "Lähetä",
   "ui.promptInput.stop": "Pysäytä",
   "ui.tabs.close": "Sulje välilehti",
+  "ui.message.outputLimit":
+    "The response reached its output limit before finishing. Try a smaller task or a higher output limit.",
+  "ui.message.outputLimit.reasoning":
+    "The model used its output limit on reasoning before answering. Try a smaller task or turn off thinking for a short answer.",
+  "ui.message.outputLimit.partial":
+    "The answer reached its output limit. The partial answer is preserved. Ask it to continue, or try a smaller task.",
+  "ui.message.outputLimit.tool":
+    "A tool call reached its output limit before finishing. Review any completed work, then try a smaller task.",
 }

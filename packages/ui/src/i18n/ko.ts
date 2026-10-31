@@ -215,4 +215,12 @@ export const dict = {
   "ui.sessionTurn.diffs.showAll": "모두 표시",
   "ui.sessionTurn.diffs.showLess": "간략히 표시",
   "ui.sessionTurn.diffs.more": "+{{count}}개 더 보기",
+  "ui.message.outputLimit":
+    "The response reached its output limit before finishing. Try a smaller task or a higher output limit.",
+  "ui.message.outputLimit.reasoning":
+    "The model used its output limit on reasoning before answering. Try a smaller task or turn off thinking for a short answer.",
+  "ui.message.outputLimit.partial":
+    "The answer reached its output limit. The partial answer is preserved. Ask it to continue, or try a smaller task.",
+  "ui.message.outputLimit.tool":
+    "A tool call reached its output limit before finishing. Review any completed work, then try a smaller task.",
 }
